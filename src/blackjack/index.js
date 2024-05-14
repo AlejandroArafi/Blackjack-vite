@@ -23,9 +23,7 @@ const btnNuevo   = document.querySelector('#btnNuevo');
 
 const divCartasJugador     = document.querySelector('#jugador-cartas');
 const divCartasComputadora = document.querySelector('#computadora-cartas');
-
 const puntosHTML = document.querySelectorAll('small');
-
 
 deck = crearDeck(tipos, especiales)
 
@@ -54,7 +52,6 @@ btnPedir.addEventListener('click', () => {
         btnDetener.disabled = true;
         turnoComputadora( puntosJugador,puntosHTML[1],divCartasComputadora, deck);
     }
-
 });
 
 
